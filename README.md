@@ -1,5 +1,5 @@
 ### Date created
-The bikeshare project was created on 8/20/2020 with the readme file created on 8/24/2020 for the Udacity Project 3, "Post your work on Github Project"
+The bikeshare project was created on 8/20/2020 with the readme file created on 8/24/2020 for the Udacity Project 3, "Post your work on Github Project".
 
 ### Project Title
 Bikeshare Ride Data Analysis Posted on GitHub
@@ -14,9 +14,9 @@ Total travel time in city.
 Mean travel time in city.
 Number of users by type.
 Counts by gender.
-Oldest rider (only availabe for Chicago and New York City).
-Youngest rider (only availabe for Chicago and New York City).
-The most common year of birth for riders (only availabe for Chicago and New York City).
+Oldest rider (only available for Chicago and New York City).
+Youngest rider (only available for Chicago and New York City).
+The most common year of birth for riders (only available for Chicago and New York City).
 
 ### Files used
 Randomly selected data for the first six months of 2017 for the following cities:
