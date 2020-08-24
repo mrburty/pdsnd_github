@@ -21,30 +21,30 @@ The most common year of birth for riders (only available for Chicago and New Yor
 ### Files used
 Randomly selected data for the first six months of 2017 for the following cities:
 
-chicago.csv
-new_york_city.csv
-washington.csv
+*chicago.csv
+*new_york_city.csv
+*washington.csv
 
 All three data files contain these six columns:
 
-##Start Time (e.g., 2017-01-01 00:07:57)
-##End Time (e.g., 2017-01-01 00:20:53)
-##Trip Duration (in seconds - e.g., 776)
-##Start Station (e.g., Broadway & Barry Ave)
-##End Station (e.g., Sedgwick St & North Ave)
-##User Type (Subscriber or Customer)
+*Start Time (e.g., 2017-01-01 00:07:57)
+*End Time (e.g., 2017-01-01 00:20:53)
+*Trip Duration (in seconds - e.g., 776)
+*Start Station (e.g., Broadway & Barry Ave)
+*End Station (e.g., Sedgwick St & North Ave)
+*User Type (Subscriber or Customer)
 
 Chicago and New York City also have the following addtional columns:
 
-##Gender
-##Birth Year
+*Gender
+*Birth Year
 
 ### Credits
 
-Programming for Data Science - https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104
-Pandas User Guide - https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide
-Stackoverflow - https://stackoverflow.com/
-Bikeshare data provided by Motivate - https://www.motivateco.com/
+[Programming for Data Science](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104)
+[Pandas User Guide](https://pandas.pydata.org/pandas-docs/stable/user_guide/index.html#user-guide)
+[Stackoverflow](https://stackoverflow.com/)
+[Bikeshare data provided by Motivate](https://www.motivateco.com/)
 
 
 
