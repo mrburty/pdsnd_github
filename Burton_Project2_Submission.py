@@ -6,6 +6,7 @@
 
 #Matt Burton Submission via Udacity Terminal 8/20/2020
 #resubmitted 8/21/2020
+#refactored on 8/24/2020
 
 import time
 import pandas as pd
@@ -37,7 +38,8 @@ def get_filters():
 
     
     while city not in city_list:
-        print('Sorry, we don\'t currently have data on',city.capitalize(), '!  Please enter either Chicgo, Washington or New York City.')
+        #print('Sorry, we don\'t currently have data on',city.capitalize(), '!  Please enter either Chicgo, Washington or New York City.')
+        print('Sorry, we don\'t currently have data on {} !  Please enter either Chicgo, Washington or New York City.'.format(city.capitalize()))
         print('\n')
         city = input("Let\'s try again, what city can I get data for you on?").lower()
     
@@ -164,9 +166,9 @@ def trip_duration_stats(df, city):
     start_time = time.time()
 
     # display total travel time
-    days = ((df['Trip Duration'].div(86400)).sum()).round(4)
-    hours = ((df['Trip Duration'].div(3600)).sum()).round(4)
-    minutes = ((df['Trip Duration'].div(60)).sum()).round(4)
+    days = ((df['Trip Duration'].div(86400)).sum()).round(2)
+    hours = ((df['Trip Duration'].div(3600)).sum()).round(2)
+    minutes = ((df['Trip Duration'].div(60)).sum()).round(2)
 
     print('The total time traveled if converted to days for this city would be {} days.'.format(days))
     print('The total time traveled if converted to hours for this city would be {} hours'.format(hours))
@@ -229,8 +231,7 @@ def raw_data_option(df):
         while True:
                 raw_data = input(('Would you like to see five more rows? Please enter yes or no: ').lower())
                 if raw_data not in raw_data_list:
-                    #raw_data = input('That is not a valid choice, please enter yes or no: ')
-                    raw_data = print('That is not a valid choice, please enter yes or no: ')
+                     raw_data = print('That is not a valid choice, please enter yes or no: ')
                 #takes user back to start
                 elif raw_data == 'no':
                     return
