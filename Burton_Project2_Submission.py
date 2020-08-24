@@ -6,6 +6,7 @@
 
 #Matt Burton Submission via Udacity Terminal 8/20/2020
 #resubmitted 8/21/2020
+#refactored on 8/24/2020
 
 import time
 import pandas as pd
@@ -37,7 +38,8 @@ def get_filters():
 
     
     while city not in city_list:
-        print('Sorry, we don\'t currently have data on',city.capitalize(), '!  Please enter either Chicgo, Washington or New York City.')
+        #print('Sorry, we don\'t currently have data on',city.capitalize(), '!  Please enter either Chicgo, Washington or New York City.')
+        print('Sorry, we don\'t currently have data on {} !  Please enter either Chicgo, Washington or New York City.'.format(city.capitalize()))
         print('\n')
         city = input("Let\'s try again, what city can I get data for you on?").lower()
     
