@@ -231,8 +231,7 @@ def raw_data_option(df):
         while True:
                 raw_data = input(('Would you like to see five more rows? Please enter yes or no: ').lower())
                 if raw_data not in raw_data_list:
-                    #raw_data = input('That is not a valid choice, please enter yes or no: ')
-                    raw_data = print('That is not a valid choice, please enter yes or no: ')
+                     raw_data = print('That is not a valid choice, please enter yes or no: ')
                 #takes user back to start
                 elif raw_data == 'no':
                     return
