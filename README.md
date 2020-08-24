@@ -1,11 +1,11 @@
 ### Date created
-Include the date you created this project and README file.
+The bikeshare project created by Matt was created on 8/20/2020 with the readme file created on 8/24/2020.
 
 ### Project Title
-Replace the Project Title
+Bikeshare Ride Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+The Bikeshare Ride Data Analysis project takes 
 
 ### Files used
 Include the files used
