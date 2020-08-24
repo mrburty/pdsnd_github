@@ -166,9 +166,9 @@ def trip_duration_stats(df, city):
     start_time = time.time()
 
     # display total travel time
-    days = ((df['Trip Duration'].div(86400)).sum()).round(4)
-    hours = ((df['Trip Duration'].div(3600)).sum()).round(4)
-    minutes = ((df['Trip Duration'].div(60)).sum()).round(4)
+    days = ((df['Trip Duration'].div(86400)).sum()).round(2)
+    hours = ((df['Trip Duration'].div(3600)).sum()).round(2)
+    minutes = ((df['Trip Duration'].div(60)).sum()).round(2)
 
     print('The total time traveled if converted to days for this city would be {} days.'.format(days))
     print('The total time traveled if converted to hours for this city would be {} hours'.format(hours))
