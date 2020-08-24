@@ -21,23 +21,23 @@ The Explore US Bikeshare data analysis project was the second project in the Uda
 ### Files used
 Randomly selected data for the first six months of 2017 for the following cities:
 
-- *chicago.csv
-- *new_york_city.csv
-- *washington.csv
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 All three data files contain these six columns:
 
-- *Start Time (e.g., 2017-01-01 00:07:57)
-- *End Time (e.g., 2017-01-01 00:20:53)
-- *Trip Duration (in seconds - e.g., 776)
-- *Start Station (e.g., Broadway & Barry Ave)
-- *End Station (e.g., Sedgwick St & North Ave)
-- *User Type (Subscriber or Customer)
+- Start Time (e.g., 2017-01-01 00:07:57)
+- End Time (e.g., 2017-01-01 00:20:53)
+- Trip Duration (in seconds - e.g., 776)
+- Start Station (e.g., Broadway & Barry Ave)
+- End Station (e.g., Sedgwick St & North Ave)
+- User Type (Subscriber or Customer)
 
 Chicago and New York City also have the following addtional columns:
 
-- *Gender
-- *Birth Year
+- Gender
+- Birth Year
 
 ### Credits
 
